@@ -1,0 +1,17 @@
+pub const HYPE_SEED: &[u8] = b"hypewtch";
+pub const HOLDER_TAG: u32 = 1;
+pub const ROOT_TAG: u32 = 2;
+pub const TOKEN_TAG: u32 = 3;
+pub const CLIENT_TAG: u32 = 4;
+pub const NETWORK_STRING_LENGTH: usize = 32;
+pub const OPERATOR_NAME_STRING_LENGTH: usize = 32;
+pub const URL_PREFIX_STRING_LENGTH: usize = 32;
+pub const MASK_STRING_LENGTH: usize = 64;
+pub const NICKNAME_STRING_LENGTH: usize = 32;
+pub const ADDRESS_STRING_LENGTH: usize = 24;
+pub const HOLDER_ACCOUNT_SIZE: usize = 56;
+pub const TOKEN_ACCOUNT_SIZE: usize = 216;
+pub const CLIENT_ACCOUNT_SIZE: usize = 176;
+pub const ROOT_ACCOUNT_SIZE: usize = 392;
+pub const NETWORK_RECORD_SIZE: usize = 136;
+pub const OPERATOR_RECORD_SIZE: usize = 72;
