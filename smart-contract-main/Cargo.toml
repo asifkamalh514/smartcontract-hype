@@ -1,0 +1,30 @@
+[package]
+name = "hype_watch"
+version = "0.1.0"
+description = "Hype.watch Protocol"
+authors = ["Hype.watch <info@hype.watch>"]
+license = "Apache-2.0"
+homepage = "https://hype.watch/"
+edition = "2018"
+
+
+[features]
+no-entrypoint = []
+
+[dependencies]
+solana-program = "=1.18.23"
+solana-address-lookup-table-program = "=1.18.23"
+spl-token = { version = "4.0.1", features = ["no-entrypoint"] }
+spl-token-2022 = { version = "3.0.2", features = ["no-entrypoint"] }
+spl-associated-token-account={ version = "3.0.2", features = ["no-entrypoint"] }
+spl-token-metadata-interface = "=0.3.3"
+spl-pod = "=0.2.2"
+spl-type-length-value = "=0.4.3"
+num_enum = "=0.5.9"
+thiserror = "=1.0.56"
+
+
+
+[lib]
+name = "hype_watch"
+crate-type = ["cdylib", "lib"]
